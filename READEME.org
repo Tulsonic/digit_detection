@@ -1,4 +1,0 @@
-* Digit Detection
-A jupyter notebook file that has a convloutional neural network within which detects single digits.
-The model is trained on the mnist data set.
-To test your digits using the network, just add the image to the directory and replace ='./seven.png'= with the name of your image.
