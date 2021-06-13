@@ -1,0 +1,42 @@
+[16:21:42.299] Global cache location '/home/ts/.cache/typescript/4.2', safe file path '/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[16:21:42.300] Processing cache location '/home/ts/.cache/typescript/4.2'
+[16:21:42.300] Trying to find '/home/ts/.cache/typescript/4.2/package.json'...
+[16:21:42.301] Loaded content of '/home/ts/.cache/typescript/4.2/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.543"},"devDependencies":{"@types/history":"^4.7.8","@types/hoist-non-react-statics":"^3.3.1","@types/react":"^17.0.5","@types/react-is":"^17.0.0","@types/react-redux":"^7.1.16","@types/react-router":"^5.1.14","@types/react-router-dom":"^5.1.7"}}
+[16:21:42.301] Loaded content of '/home/ts/.cache/typescript/4.2/package-lock.json'
+[16:21:42.311] Adding entry into typings cache: 'history' => '/home/ts/.cache/typescript/4.2/node_modules/@types/history/index.d.ts'
+[16:21:42.317] Adding entry into typings cache: 'hoist-non-react-statics' => '/home/ts/.cache/typescript/4.2/node_modules/@types/hoist-non-react-statics/index.d.ts'
+[16:21:42.323] Adding entry into typings cache: 'react' => '/home/ts/.cache/typescript/4.2/node_modules/@types/react/index.d.ts'
+[16:21:42.325] Adding entry into typings cache: 'react-is' => '/home/ts/.cache/typescript/4.2/node_modules/@types/react-is/index.d.ts'
+[16:21:42.331] Adding entry into typings cache: 'react-redux' => '/home/ts/.cache/typescript/4.2/node_modules/@types/react-redux/index.d.ts'
+[16:21:42.338] Adding entry into typings cache: 'react-router' => '/home/ts/.cache/typescript/4.2/node_modules/@types/react-router/index.d.ts'
+[16:21:42.341] Adding entry into typings cache: 'react-router-dom' => '/home/ts/.cache/typescript/4.2/node_modules/@types/react-router-dom/index.d.ts'
+[16:21:42.341] Finished processing cache location '/home/ts/.cache/typescript/4.2'
+[16:21:42.341] Process id: 21950
+[16:21:42.341] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[16:21:42.341] validateDefaultNpmLocation: false
+[16:21:42.341] Npm config file: /home/ts/.cache/typescript/4.2/package.json
+[16:21:42.341] Updating types-registry npm package...
+[16:21:42.341] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[16:21:43.485]     Succeeded. stdout:
+    
+    up to date, audited 17 packages in 1s
+
+found 0 vulnerabilities
+
+[16:21:43.486] Updated types-registry npm package
+[16:21:43.507] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/ts/projects/digit_detection/digit_detection.ipynb"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/ts/projects/digit_detection","kind":"discover"}
+[16:21:43.522] Loaded safelist from types map file '/home/ts/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[16:21:43.522] Explicitly included types: []
+[16:21:43.522] Inferred typings from unresolved imports: []
+[16:21:43.523] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/ts/projects/digit_detection/bower_components","/home/ts/projects/digit_detection/node_modules"]}
+[16:21:43.523] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/ts/projects/digit_detection/bower_components","/home/ts/projects/digit_detection/node_modules"]}
+[16:21:43.523] DirectoryWatcher:: Added:: WatchInfo: /home/ts/projects/digit_detection/bower_components
+[16:21:43.523] DirectoryWatcher:: Added:: WatchInfo: /home/ts/projects/digit_detection/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:21:43.524] Elapsed:: 1.1575179994106293ms DirectoryWatcher:: Added:: WatchInfo: /home/ts/projects/digit_detection/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:21:43.525] DirectoryWatcher:: Added:: WatchInfo: /home/ts/projects/digit_detection/node_modules
+[16:21:43.525] DirectoryWatcher:: Added:: WatchInfo: /home/ts/projects/digit_detection/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:21:43.525] Elapsed:: 0.08015199936926365ms DirectoryWatcher:: Added:: WatchInfo: /home/ts/projects/digit_detection/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:21:43.525] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[16:21:43.525] Response has been sent.
+[16:21:43.525] No new typings were requested as a result of typings discovery

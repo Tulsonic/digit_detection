@@ -1,0 +1,15 @@
+Info 0    [16:21:42.085] Starting TS Server
+Info 1    [16:21:42.087] Version: 4.2.4
+Info 2    [16:21:42.087] Arguments: /usr/bin/node /home/ts/.emacs.d/.cache/lsp/npm/typescript/bin/tsserver --logFile /home/ts/projects/digit_detection/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/bc74abd602f91e53aeeaa39f2ef1b2e6/tscancellation*
+Info 3    [16:21:42.087] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [16:21:42.087] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [16:21:42.105] Search path: /home/ts/projects/digit_detection
+Info 6    [16:21:42.105] For info: /home/ts/projects/digit_detection/digit_detection.ipynb :: No config files found.
+Info 7    [16:21:42.109] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 8    [16:21:42.920] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 810.4143170006573ms
+Info 9    [16:21:42.920] Project '/dev/null/inferredProject1*' (Inferred)
+Info 10   [16:21:42.920] 	Files (19)
+
+Info 11   [16:21:42.920] -----------------------------------------------
+Info 12   [09:35:07.275] FileWatcher:: Triggered with /home/ts/package.json 1:: WatchInfo: /home/ts/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 13   [09:35:07.276] Elapsed:: 0.8603249993175268ms FileWatcher:: Triggered with /home/ts/package.json 1:: WatchInfo: /home/ts/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
